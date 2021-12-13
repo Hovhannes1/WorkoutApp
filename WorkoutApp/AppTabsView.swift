@@ -8,21 +8,23 @@
 import SwiftUI
 
 struct AppTabsView: View {
+    @EnvironmentObject var dataModel : WorkoutViewModel
     var body: some View {
         TabView {
             TimerView()
                 .tabItem{
-                    Image(systemName: "dollarsign.square")
+                    Image(systemName: "timer")
                     Text("Timer")
                 }
             WorkoutView()
                 .tabItem{
-                    Image(systemName: "chart.bar")
+                    Image(systemName: "list.bullet")
                     Text("Workout")
                 }
+                .disabled(dataModel.workouts.count == 0)
             ProfileView()
                 .tabItem{
-                    Image(systemName: "chart.bar")
+                    Image(systemName: "person")
                     Text("Profil")
                 }
         }
@@ -31,6 +33,6 @@ struct AppTabsView: View {
 
 struct AppTabsView_Previews: PreviewProvider {
     static var previews: some View {
-        AppTabsView()
+        AppTabsView().environmentObject(WorkoutViewModel())
     }
 }

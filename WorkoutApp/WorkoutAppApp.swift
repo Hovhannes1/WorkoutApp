@@ -7,7 +7,7 @@
 import CoreLocation
 import SwiftUI
 
-@main
+@main   
 struct WorkoutAppApp: App {
     
         let locationManager = CLLocationManager()
@@ -27,7 +27,7 @@ struct WorkoutAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            AppTabsView()
+            AppTabsView().environmentObject(WorkoutViewModel())
         }
     }
 }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780CBCE1274CEA0A00315B43 /* LoactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CBCE0274CEA0A00315B43 /* LoactionManager.swift */; };
+		78129E3C2763A481008795F1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78129E3B2763A481008795F1 /* MapView.swift */; };
+		7821AC20274CF9570031B0E9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7821AC1F274CF9570031B0E9 /* Data.swift */; };
+		78B9D3112760CA4A00A2A893 /* WorkoutDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B9D3102760CA4A00A2A893 /* WorkoutDetails.swift */; };
+		78CF9EE1275775B20072B51B /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF9EE0275775B20072B51B /* WorkoutViewModel.swift */; };
 		78DCAC092743B0BC00D7769F /* WorkoutAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DCAC082743B0BC00D7769F /* WorkoutAppApp.swift */; };
 		78DCAC0B2743B0BC00D7769F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DCAC0A2743B0BC00D7769F /* ContentView.swift */; };
 		78DCAC0D2743B0BE00D7769F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DCAC0C2743B0BE00D7769F /* Assets.xcassets */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		780CBCE0274CEA0A00315B43 /* LoactionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoactionManager.swift; sourceTree = "<group>"; };
+		78129E3B2763A481008795F1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7821AC1F274CF9570031B0E9 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		78B9D3102760CA4A00A2A893 /* WorkoutDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetails.swift; sourceTree = "<group>"; };
+		78CF9EE0275775B20072B51B /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
 		78DCAC052743B0BC00D7769F /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DCAC082743B0BC00D7769F /* WorkoutAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppApp.swift; sourceTree = "<group>"; };
 		78DCAC0A2743B0BC00D7769F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +70,7 @@
 		78DCAC072743B0BC00D7769F /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				7821AC1F274CF9570031B0E9 /* Data.swift */,
 				78DCAC082743B0BC00D7769F /* WorkoutAppApp.swift */,
 				78DCAC0A2743B0BC00D7769F /* ContentView.swift */,
 				78DCAC0C2743B0BE00D7769F /* Assets.xcassets */,
@@ -68,7 +79,11 @@
 				78DCAC172743B0EC00D7769F /* AppTabsView.swift */,
 				78DCAC192743B1E800D7769F /* TimerView.swift */,
 				78DCAC1B2743B1F300D7769F /* WorkoutView.swift */,
+				78B9D3102760CA4A00A2A893 /* WorkoutDetails.swift */,
 				78DCAC1D2743B1FF00D7769F /* ProfileView.swift */,
+				780CBCE0274CEA0A00315B43 /* LoactionManager.swift */,
+				78CF9EE0275775B20072B51B /* WorkoutViewModel.swift */,
+				78129E3B2763A481008795F1 /* MapView.swift */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -151,11 +166,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				78DCAC0B2743B0BC00D7769F /* ContentView.swift in Sources */,
+				78CF9EE1275775B20072B51B /* WorkoutViewModel.swift in Sources */,
 				78DCAC092743B0BC00D7769F /* WorkoutAppApp.swift in Sources */,
+				78129E3C2763A481008795F1 /* MapView.swift in Sources */,
 				78DCAC1A2743B1E800D7769F /* TimerView.swift in Sources */,
 				78DCAC182743B0EC00D7769F /* AppTabsView.swift in Sources */,
 				78DCAC1E2743B1FF00D7769F /* ProfileView.swift in Sources */,
 				78DCAC1C2743B1F300D7769F /* WorkoutView.swift in Sources */,
+				780CBCE1274CEA0A00315B43 /* LoactionManager.swift in Sources */,
+				78B9D3112760CA4A00A2A893 /* WorkoutDetails.swift in Sources */,
+				7821AC20274CF9570031B0E9 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
